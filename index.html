@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeBuddy - 您的编程小伙伴</title>
+    <style>
+        body { 
+            font-family: 'Arial', sans-serif; 
+            text-align: center; 
+            padding: 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+        p { font-size: 1.2rem; margin-bottom: 2rem; }
+        .status { 
+            background: rgba(255, 255, 255, 0.2); 
+            padding: 2rem; 
+            border-radius: 1rem;
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎉 CodeBuddy 已成功部署！</h1>
+    <p>您的AI编程小伙伴即将上线...</p>
+    
+    <div class="status">
+        <h2>环境状态</h2>
+        <p>Supabase: <span id="supabase-status">等待配置...</span></p>
+        <p>DeepSeek AI: <span id="ai-status">等待配置...</span></p>
+    </div>
+
+    <p>接下来请配置环境密钥即可完成全部设置</p>
+</body>
+</html>
