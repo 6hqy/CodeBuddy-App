@@ -1,0 +1,20 @@
+import React from 'react'
+
+function App() {
+  return (
+    <div style={{ padding: '2rem', textAlign: 'center' }}>
+      <h1>🎉 CodeBuddy 本地运行成功！</h1>
+      <p>您的AI编程小伙伴已在本地准备就绪...</p>
+      
+      <div style={{ background: 'rgba(255,255,255,0.2)', padding: '2rem', borderRadius: '1rem', margin: '2rem 0' }}>
+        <h2>环境状态</h2>
+        <p>Supabase: <span style={{ color: 'lightgreen' }}>已连接 (模拟)</span></p>
+        <p>DeepSeek AI: <span style={{ color: 'lightgreen' }}>已就绪 (模拟)</span></p>
+      </div>
+
+      <p>这是一个纯净的本地版本，用于确认基础环境无误。</p>
+    </div>
+  )
+}
+
+export default App
